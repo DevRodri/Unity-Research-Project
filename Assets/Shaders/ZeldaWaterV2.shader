@@ -12,7 +12,7 @@
 		_Emboss ("Emboss", Range (0.01, 1.0)) = .3
 		_HeightScale ("HeightScale", Range (0.001, 3.0)) = 0.5
 		_NoiseScale ("NoiseScale", Range (0.001, 2.0)) = 0.02
-		_WaveSpeed ("WaveSpeed", Range (0.01, 10.0)) = 2.5
+		_WaveSpeed ("WaveSpeed", Range (0.01, 30.0)) = 2.5
 	}
 	SubShader {
 		Pass {		
@@ -131,4 +131,5 @@
 		}
 	} 
 	FallBack "Diffuse"
+	
 }

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{BD4F55AA-1088-81B6-A6DE-23D138620B8D}</ProjectGuid>
+	<ProjectGuid>{59EC7AAE-3030-FD52-C3FD-E9669A0E309C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,10 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Floater.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Floater.cs" />
      <Compile Include="Assets\Scripts\Flotacion.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\ReturnMenu.cs" />
      <Compile Include="Assets\Scripts\TiraCubos.cs" />
      <Compile Include="Assets\Scripts\WavesGen.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
@@ -60,7 +61,7 @@
      <None Include="Assets\Shaders\ZeldaWaterV2.shader" />
      <None Include="Assets\Shaders\noiseSimplex.cginc" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>D:/Master Videojuegos/Entregas/Entrega Investigación/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Rodri/Documents/GitHub/Unity-Research-Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>

@@ -1,3 +1,78 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-2024
+Pipe name: \\.\pipe\UnityShaderCompiler-1-1744
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=4394 outsize=862 ok=1
+Cmd: preprocess
+  insize=4396 outsize=864 ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (19): #pragma surface does not allow specifying other programs
+  error: 2 plat 12 at (19): Surface shader function 'surf' not found
+  insize=4406 outsize=920 ok=0
+Cmd: preprocess
+  error: 2 plat 12 at (19): #pragma surface does not allow specifying other programs
+  error: 2 plat 12 at (19): Surface shader function 'surf' not found
+  error: 1 plat 12 at (19): Unrecognized #pragma surface directive: Lambert
+  insize=4412 outsize=920 ok=0
+Cmd: preprocess
+  error: 2 plat 12 at (19): #pragma surface does not allow specifying other programs
+  error: 2 plat 12 at (19): Surface shader function 'surf' not found
+  insize=4410 outsize=924 ok=0
+Cmd: preprocess
+  error: 2 plat 12 at (19): #pragma surface does not allow specifying other programs
+  error: 2 plat 12 at (19): Surface shader function 'surf' not found
+  insize=4434 outsize=948 ok=0
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=3506 outsize=3193 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6822 outsize=5767 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6822 outsize=5182 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3536 outsize=3720 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3536 outsize=4540 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3453 outsize=3005 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3453 outsize=3387 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6204 outsize=5296 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6204 outsize=4492 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3536 outsize=2940 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3536 outsize=4069 kw=DIRECTIONAL ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3833 outsize=7993 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3833 outsize=11739 kw= ok=1
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
+Cmd: preprocess
+  insize=4394 outsize=842 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (26): unrecognized identifier 'Lighting'
+  api=4 type=0 insize=3853 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=4414 outsize=842 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (26): unrecognized identifier 'Material'
+  api=4 type=0 insize=3873 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=4374 outsize=842 ok=1
