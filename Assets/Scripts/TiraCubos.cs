@@ -4,6 +4,8 @@ using System.Collections;
 public class TiraCubos : MonoBehaviour {
 
 	public GameObject cubo;
+
+	public Transform pos;
 	// Use this for initialization
 	void Start () {
 		InvokeRepeating ("tiraCubos", 1.0f, 2.5f);
@@ -28,8 +30,8 @@ public class TiraCubos : MonoBehaviour {
 	}
 
 	void tiraCubos(){
-		Vector3 posicion = new Vector3(13f, 30f, -6.7f);
-		
-		Instantiate(cubo, posicion, Quaternion.identity);
+		Vector3 newPos = pos.position;
+		newPos.y = 30f;
+		Instantiate(cubo, newPos, Quaternion.identity);
 	}
 }

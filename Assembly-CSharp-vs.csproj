@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Floater.cs" />
      <Compile Include="Assets\Scripts\Flotacion.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\PositionChange.cs" />
      <Compile Include="Assets\Scripts\ReturnMenu.cs" />
      <Compile Include="Assets\Scripts\TiraCubos.cs" />
      <Compile Include="Assets\Scripts\WavesGen.cs" />

@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TiraCubos.cs">
     <Files>
-      <File FileName="Assets\Scripts\TiraCubos.cs" Line="31" Column="36" />
+      <File FileName="Assets\Scripts\PositionChange.cs" Line="33" Column="20" />
+      <File FileName="Assets\Scripts\TiraCubos.cs" Line="34" Column="18" />
       <File FileName="Assets\Scripts\WavesGen.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Menu.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ReturnMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Destroyer.cs" Line="7" Column="23" />
+      <File FileName="Assets\Scripts\Destroyer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
