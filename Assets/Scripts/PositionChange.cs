@@ -7,11 +7,17 @@ public class PositionChange : MonoBehaviour {
 	private int actualPosition;
 
 	public float smoothTime;
-	
+	private CameraFollow cameraFollow;
+
+	private bool following;
+	private Quaternion initialRotation;
 
 	// Use this for initialization
 	void Start () {
 		actualPosition = 0;
+		following = false;
+		cameraFollow = this.GetComponent<CameraFollow> () as CameraFollow;
+		initialRotation = this.transform.rotation;
 	}
 	
 	// Update is called once per frame
@@ -23,8 +29,16 @@ public class PositionChange : MonoBehaviour {
 	}
 
 	public void moveToNextPoint(){
-		if(actualPosition < 3){
+		if(actualPosition < 4){
 			actualPosition += 1;
+		}
+		if(actualPosition == 4 && !following)
+		{
+			following = true;
+			cameraFollow.enabled = true;
+			cameraFollow.transform.position = cameraFollow.target.transform.position - (cameraFollow.target.transform.forward * cameraFollow.distance);
+			cameraFollow.transform.rotation = cameraFollow.target.transform.rotation;
+			cameraFollow.height = -3;
 		}
 	}
 
@@ -32,5 +46,11 @@ public class PositionChange : MonoBehaviour {
 		if(actualPosition > 0){
 			actualPosition -= 1;
 		}
+		if(actualPosition == 3){
+			following = false;
+			this.transform.rotation = initialRotation;
+			cameraFollow.enabled = false;
+		}
 	}
+		
 }

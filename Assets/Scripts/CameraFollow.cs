@@ -6,6 +6,7 @@ public class CameraFollow : MonoBehaviour {
 	public GameObject target;
 
 	public float height;
+	public float distance;
 
 	private Vector3 offset;
 
@@ -15,7 +16,7 @@ public class CameraFollow : MonoBehaviour {
 
 		offset = target.transform.position - transform.position;
 		height += offset.y;
-	
+
 	}
 
 	void Update () {
