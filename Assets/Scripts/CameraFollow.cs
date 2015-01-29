@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		offset = target.transform.position - transform.position;
+		offset = 5*(target.transform.position - transform.position);
 		height += offset.y;
 
 	}

@@ -38,7 +38,7 @@ public class PositionChange : MonoBehaviour {
 			cameraFollow.enabled = true;
 			cameraFollow.transform.position = cameraFollow.target.transform.position - (cameraFollow.target.transform.forward * cameraFollow.distance);
 			cameraFollow.transform.rotation = cameraFollow.target.transform.rotation;
-			cameraFollow.height = -3;
+			cameraFollow.height = -7;
 		}
 	}
 
