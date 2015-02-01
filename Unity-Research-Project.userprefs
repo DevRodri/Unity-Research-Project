@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MenuReturn.cs">
     <Files>
-      <File FileName="Assets\Scripts\PositionChange.cs" Line="42" Column="4" />
-      <File FileName="Assets\Scripts\CameraFollow.cs" Line="17" Column="13" />
+      <File FileName="Assets\MenuReturn.cs" Line="13" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
