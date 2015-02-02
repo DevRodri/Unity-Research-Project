@@ -14,7 +14,7 @@ public class Restart : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other) {
 		
-		if(other.tag =="Player")Application.LoadLevel(0);
+		if(other.tag =="Player")Application.LoadLevel("EscenaCompleta");
 
 	}
 }
