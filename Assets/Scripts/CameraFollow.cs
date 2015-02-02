@@ -13,9 +13,11 @@ public class CameraFollow : MonoBehaviour {
 	public float damp;
 	// Use this for initialization
 	void Start () {
-
-		offset = 5*(target.transform.position - transform.position);
-		height += offset.y;
+		//transform.position = target.transform.position;
+		//transform.rotation = target.transform.rotation;
+		//offset = 5*(target.transform.position - transform.position);
+		offset = (target.transform.position +(target.transform.up * height) - transform.position); 
+		//height += offset.y;
 
 	}
 
