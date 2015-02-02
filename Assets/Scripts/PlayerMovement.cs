@@ -5,7 +5,6 @@ public class PlayerMovement : MonoBehaviour {
 
 	public int speed;
 	public float rotateSpeed;
-
 	// Use this for initialization
 	void Start () {
 	
@@ -18,6 +17,8 @@ public class PlayerMovement : MonoBehaviour {
 		float horizontal = Input.GetAxis ("Horizontal") * rotateSpeed * Time.deltaTime;
 
 		transform.Translate (0f, 0f, vertical);
-		transform.Rotate (0f,horizontal,0f);
+		transform.Rotate (0f, horizontal, 0f);
+
 	}
+
 }

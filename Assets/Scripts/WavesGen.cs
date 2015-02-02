@@ -7,8 +7,6 @@ public class WavesGen : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 
-		if(other.tag =="Player")Application.LoadLevel("EscenaCompleta");
-
 		waves.particleSystem.randomSeed = 30;
 
 		Vector3 vec = other.transform.position;

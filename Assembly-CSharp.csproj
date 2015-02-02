@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MenuReturn.cs" />
      <Compile Include="Assets\Scripts\Blackhole.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
@@ -57,9 +56,12 @@
      <Compile Include="Assets\Scripts\LightningBolt.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
+     <Compile Include="Assets\Scripts\MenuReturn.cs" />
      <Compile Include="Assets\Scripts\Perlin.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PorteriaChangecolor.cs" />
      <Compile Include="Assets\Scripts\PositionChange.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\ReturnMenu.cs" />
      <Compile Include="Assets\Scripts\TiraCubos.cs" />
      <Compile Include="Assets\Scripts\WavesGen.cs" />

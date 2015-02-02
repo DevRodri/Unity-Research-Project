@@ -16,13 +16,14 @@ public class CameraFollow : MonoBehaviour {
 		//transform.position = target.transform.position;
 		//transform.rotation = target.transform.rotation;
 		//offset = 5*(target.transform.position - transform.position);
-		offset = (target.transform.position +(target.transform.up * height) - transform.position); 
+		offset = distance * (target.transform.position + (target.transform.up * height) - transform.position); 
 		//height += offset.y;
 
 	}
 
 	void Update () {
 		offset.y = height;
+		offset.z = distance;
 	}
 	
 	// Update is called once per frame
