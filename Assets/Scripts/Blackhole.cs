@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEditor;
 using System.Collections;
 
 
@@ -13,8 +12,14 @@ public class Blackhole : MonoBehaviour {
 
 	void Start () 
 	{
-		Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/mystical_01.prefab", typeof(GameObject));
-		particlehole = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
+		//Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/mystical_01.prefab", typeof(GameObject));
+		//Object prefab = Resources.Load("Assets/Prefabs/mystical_01.prefab", typeof(GameObject));
+
+		//GameObject prefab = GameObject.Instantiate( Resources.LoadAssetAtPath("Assets/Prefabs/mystical_01.prefab", typeof(GameObject)) ) as GameObject; 
+		//GameObject prefab = Instantiate(Resources.Load("mystical_01.prefab")) as GameObject;
+
+		//particlehole = Instantiate(prefab, Vector3.zero, Quaternion.identity) as GameObject;
+		particlehole=Instantiate(Resources.Load("mystical_01")) as GameObject;
 		particlehole.transform.position = gameObject.transform.position;
 	}
 	
