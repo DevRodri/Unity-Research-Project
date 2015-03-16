@@ -46,11 +46,36 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneAlarmLight.cs" />
+     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneCCTVPlayerDetection.cs" />
+     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserBlinking.cs" />
+     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserPlayerDetection.cs" />
+     <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserSwitchDeactivation.cs" />
+     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyAI.cs" />
+     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyAnimation.cs" />
+     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyShooting.cs" />
+     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemySight.cs" />
+     <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneWayPointGizmo.cs" />
+     <Compile Include="Assets\Done\DoneScripts\GameControllerScripts\DoneHashIDs.cs" />
+     <Compile Include="Assets\Done\DoneScripts\GameControllerScripts\DoneLastPlayerSighting.cs" />
+     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneCameraMovement.cs" />
+     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneDoorAnimation.cs" />
+     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneKeyPickup.cs" />
+     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneLiftDoorsTracking.cs" />
+     <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneLiftTrigger.cs" />
+     <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerHealth.cs" />
+     <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerInventory.cs" />
+     <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs" />
+     <Compile Include="Assets\Done\DoneScripts\ScreenFaderScripts\DoneSceneFadeInOut.cs" />
+     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneAnimatorSetup.cs" />
+     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
+     <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
      <Compile Include="Assets\Scripts\Blackhole.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
      <Compile Include="Assets\Scripts\Floater.cs" />
      <Compile Include="Assets\Scripts\Flotacion.cs" />
+     <Compile Include="Assets\Scripts\IAScripts\IAOrutaka.cs" />
      <Compile Include="Assets\Scripts\Intertia.cs" />
      <Compile Include="Assets\Scripts\InverseInertia.cs" />
      <Compile Include="Assets\Scripts\LightningBolt.cs" />
@@ -67,6 +92,7 @@
      <Compile Include="Assets\Scripts\WavesGen.cs" />
      <Compile Include="Assets\Scripts\abiltycontroller.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
@@ -74,7 +100,7 @@
      <None Include="Assets\Shaders\ZeldaWaterV2.shader" />
      <None Include="Assets\Shaders\noiseSimplex.cginc" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/snavarro/Desktop/entrenga/Unity-Research-Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/snavarro/Documents/GitHub/Unity-Research-Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
